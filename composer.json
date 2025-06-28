@@ -2,9 +2,9 @@
     "name": "dizatech/saman_ipg",
     "type": "library",
     "require": {
-        "guzzlehttp/guzzle": "^7.9",
-        "symfony/var-dumper": "^7.3",
-        "nesbot/carbon": "^3.10"
+        "guzzlehttp/guzzle": "*",
+        "symfony/var-dumper": "*",
+        "nesbot/carbon": "*"
     },
     "license": "GPL-3.0-or-later",
     "autoload": {
