@@ -1,0 +1,21 @@
+{
+    "name": "dizatech/saman_ipg",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^7.9",
+        "symfony/var-dumper": "^7.3",
+        "nesbot/carbon": "^3.10"
+    },
+    "license": "GPL-3.0-or-later",
+    "autoload": {
+        "psr-4": {
+            "Dizatech\\SamanIpg\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Omid Reza Vasheghani Farahani",
+            "email": "omidrezav@gmail.com"
+        }
+    ]
+}
