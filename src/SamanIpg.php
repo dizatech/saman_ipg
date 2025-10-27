@@ -60,7 +60,7 @@ class SamanIpg
                 [
                     'json'  => [
                         'RefNum'            => $ref_number,
-                        'TerminalNumber'    => env('SAMAN_TERMINAL_ID'),
+                        'TerminalNumber'    => $this->terminal_id,
                     ],
                 ]
             );
@@ -97,7 +97,7 @@ class SamanIpg
                 [
                     'json'  => [
                         'RefNum'            => $ref_number,
-                        'TerminalNumber'    => env('SAMAN_TERMINAL_ID'),
+                        'TerminalNumber'    => $this->terminal_id,
                     ],
                 ]
             );
